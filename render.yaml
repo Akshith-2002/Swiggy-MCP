@@ -1,0 +1,21 @@
+# Render Blueprint — Evening Planner (Swiggy MCP)
+# Deploys the full FastAPI + MCP + SSE app on a persistent Python web service.
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: swiggy-mcp-evening-planner
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    # uvicorn binds Render's injected $PORT on all interfaces; the agent spawns
+    # the 3 MCP servers as subprocesses under this same interpreter (sys.executable).
+    startCommand: uvicorn web.server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      # Secret — set this in the Render dashboard, NOT in this file. (sync: false
+      # tells Render to prompt for it and never read it from the repo.)
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: MODEL
+        value: claude-sonnet-4-6
+      - key: PYTHON_VERSION
+        value: "3.13.7"
