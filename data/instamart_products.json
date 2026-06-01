@@ -1,0 +1,83 @@
+[
+  {
+    "id": "IM_FL_001",
+    "name": "Bouquet of 12 Red Roses",
+    "category": "Flowers",
+    "price": 599,
+    "in_stock": true,
+    "delivery_minutes": 25,
+    "description": "Fresh long-stem red roses, hand-tied"
+  },
+  {
+    "id": "IM_FL_002",
+    "name": "Mixed Seasonal Flower Bouquet",
+    "category": "Flowers",
+    "price": 449,
+    "in_stock": true,
+    "delivery_minutes": 25,
+    "description": "Carnations, lilies, and seasonal flowers"
+  },
+  {
+    "id": "IM_FL_003",
+    "name": "Sunflower Bouquet (6 stems)",
+    "category": "Flowers",
+    "price": 349,
+    "in_stock": true,
+    "delivery_minutes": 25,
+    "description": "Cheerful sunflowers, fresh-cut"
+  },
+  {
+    "id": "IM_FL_004",
+    "name": "Premium White Lilies Bouquet",
+    "category": "Flowers",
+    "price": 749,
+    "in_stock": false,
+    "delivery_minutes": 25,
+    "description": "Elegant white lilies"
+  },
+  {
+    "id": "IM_DS_001",
+    "name": "Theobroma Chocolate Truffle Cake 500g",
+    "category": "Dessert",
+    "price": 525,
+    "in_stock": true,
+    "delivery_minutes": 18,
+    "description": "Rich Belgian chocolate truffle, vegetarian"
+  },
+  {
+    "id": "IM_DS_002",
+    "name": "Cheesecake Slice 200g (Theobroma)",
+    "category": "Dessert",
+    "price": 275,
+    "in_stock": true,
+    "delivery_minutes": 18,
+    "description": "New York-style baked cheesecake"
+  },
+  {
+    "id": "IM_DS_003",
+    "name": "Ferrero Rocher 16-piece Box",
+    "category": "Dessert",
+    "price": 599,
+    "in_stock": true,
+    "delivery_minutes": 12,
+    "description": "Premium hazelnut chocolates"
+  },
+  {
+    "id": "IM_DS_004",
+    "name": "Belgian Dark Chocolate Brownie Pack (6)",
+    "category": "Dessert",
+    "price": 199,
+    "in_stock": true,
+    "delivery_minutes": 15,
+    "description": "Fudgy, gooey brownies"
+  },
+  {
+    "id": "IM_DS_005",
+    "name": "Macaron Box 12-piece (assorted)",
+    "category": "Dessert",
+    "price": 695,
+    "in_stock": true,
+    "delivery_minutes": 22,
+    "description": "French macarons, assorted flavours"
+  }
+]

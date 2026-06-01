@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ADDR_001",
+    "label": "Home",
+    "line1": "Flat 304, Prestige Acropolis",
+    "line2": "HSR Layout, Sector 2",
+    "city": "Bangalore",
+    "pincode": "560102",
+    "lat": 12.9116,
+    "lng": 77.6385,
+    "is_default": true
+  },
+  {
+    "id": "ADDR_002",
+    "label": "Office",
+    "line1": "WeWork Galaxy",
+    "line2": "Residency Road",
+    "city": "Bangalore",
+    "pincode": "560025",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "is_default": false
+  }
+]

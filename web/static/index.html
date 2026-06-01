@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evening Planner · Swiggy MCP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="starfield"></div>
+  <div class="confetti" id="confetti"></div>
+
+  <div class="splash" id="splash">
+    <div class="splash-inner">
+      <div class="splash-logo">🌙</div>
+      <h1 class="splash-title">Evening <em>Planner</em></h1>
+      <div class="splash-divider"></div>
+      <div class="splash-powered">
+        <span class="splash-powered-label">Powered by</span>
+        <div class="splash-brand">
+          <span class="splash-brand-mark">🛵</span>
+          <span class="splash-brand-name">Swiggy</span>
+        </div>
+      </div>
+      <div class="splash-cta">
+        <span>click anywhere to begin</span>
+        <span class="splash-cta-chev">›</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="app">
+    <header>
+      <div class="brand">
+        <div class="logo">🌙</div>
+        <div class="brand-text">
+          <h1>Evening Planner</h1>
+          <span class="subtitle">Multi-MCP agent · Dineout + Instamart + Food</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="chat" id="chat">
+      <div class="welcome" id="welcome">
+        <h2>Plan tonight in <span class="accent-text">one prompt</span>.</h2>
+        <div class="suggestions">
+          <button class="suggestion"><span class="suggestion-icon">🌹</span>Plan a date night in Indiranagar tonight, ₹3500, she's vegetarian. Flowers + dessert to home after.</button>
+          <button class="suggestion"><span class="suggestion-icon">🥂</span>Anniversary dinner in Indiranagar, ₹5000, pure-veg only. Roses + cake home by 10:30.</button>
+          <button class="suggestion"><span class="suggestion-icon">🍰</span>Veg-friendly romantic dinner near HSR, ₹3000, dessert delivery after.</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="composer">
+      <form id="form" autocomplete="off">
+        <input
+          type="text"
+          id="prompt"
+          placeholder="Plan a date night in Indiranagar, ₹3500 budget, she's vegetarian"
+          autocomplete="off"
+        />
+        <button type="submit" id="send" aria-label="Send">↑</button>
+      </form>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
